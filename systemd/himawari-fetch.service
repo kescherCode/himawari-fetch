@@ -1,0 +1,8 @@
+# /etc/systemd/system/himawari-fetch.service
+
+[Unit]
+Description=Fetch images from the himawari API
+
+[Service]
+Type=oneshot
+ExecStart=himawari_fetch -d 580 --output-dir /var/lib/himawari-fetch

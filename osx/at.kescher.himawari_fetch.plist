@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>org.boramalper.himawaripy</string>
+  <string>at.kescher.himawari_fetch</string>
 
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/local/bin/himawaripy</string>
+    <string>/usr/local/bin/himawari_fetch</string>
   </array>
 
   <key>Nice</key>
@@ -20,9 +20,9 @@
   <true/>
 
   <key>StandardErrorPath</key>
-  <string>/tmp/himapy.err</string>
+  <string>/tmp/himafetch.err</string>
 
   <key>StandardOutPath</key>
-  <string>/tmp/himapy.out</string>
+  <string>/tmp/himafetch.out</string>
 </dict>
 </plist>
