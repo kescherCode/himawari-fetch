@@ -1,0 +1,11 @@
+# /etc/systemd/system/himawari-fetch.timer
+
+[Unit]
+Description=Fetch new himawari images every minute
+
+[Timer]
+OnCalendar=*:0/10
+Persistent=true
+
+[Install]
+WantedBy=timers.target
