@@ -2,7 +2,7 @@
 
 pkgname=himawari-fetch
 _srcname=himawari_fetch
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Set near-realtime picture of Earth into a directory"
 arch=('any')
