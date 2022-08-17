@@ -5,4 +5,5 @@ Description=Fetch images from the himawari API
 
 [Service]
 Type=oneshot
+TimeoutSec=585 seconds
 ExecStart=himawari_fetch -d 580 --output-dir /var/lib/himawari-fetch
